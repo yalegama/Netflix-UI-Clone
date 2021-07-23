@@ -20,24 +20,82 @@
             background-color: red;
             display: inline-block;
             float: left;
+            margin-right: 20px;
         }
         .leftMenu{
-            background-color:blue ;
+            background-color:#000 ;
             display: inline-block;
             float: left;
+            padding: 10px;
         }
         .rightMenu{
-            background-color: yellow;
+            background-color: #000;
             display: inline-block;
             float: right;
+            padding: 10px;
         }
+        .netflix{
+            padding: 10px;
+        }
+        .netflix a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .leftMenu ul{
+
+        }
+        .leftMenu ul li{
+            display: inline-block;
+        }
+        .leftMenu ul li a{
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px 0 10px;
+        }
+        .leftMenu ul li a:hover{
+            color: red;
+        }
+        .rightMenu {
+
+        }
+        .rightMenu ul{
+
+        }
+    .rightMenu ul li{
+        display: inline-block;
+    }
+    .rightMenu ul li a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+    #largeImage{
+  background: url(./LK.jpg) no-repeat center center fixed;  */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 540.95px;
+
+}
     </style>
 </head>
 <body>
     <div id="header">
-        <div class="logo">logo</div>
-        <div class="leftMenu">leftMenu</div>
-        <div class="rightMenu">right menu</div>
+        <div class="logo"><h3 class="netflix"><a href="./index.html">Netflix</a></h3></div>
+        <div class="leftMenu">
+            <ul>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">DVD</a></li>
+            </ul>
+        </div>
+        <div class="rightMenu">
+            <ul>
+                <li><a href="#">search</a></li>
+                <li><a href="#">bell</a></li>
+                <li><a href="#">User Profile</a></li>
+            </ul>
+        </div>
     </div>
     <div id="largeImage">
         <div><h6>small title</h6></div>
