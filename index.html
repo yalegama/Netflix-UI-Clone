@@ -69,13 +69,23 @@
         color: antiquewhite;
     }
     #largeImage{
-  background: url(./LK.jpg) no-repeat center center fixed;  */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 540.95px;
-
+    background: url(./LK.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 200px 100px;
+    height: 90%;
+}
+.discriptionBox{
+    color: #fff;
+    width: 60%;
+}
+.discriptionBox h4{
+    font-family: sans-serif;
+}
+.discriptionBox h1{
+    font-family: sans-serif;
 }
     </style>
 </head>
@@ -98,12 +108,18 @@
         </div>
     </div>
     <div id="largeImage">
-        <div><h6>small title</h6></div>
-        <div><h1>large title</h1></div>
-        <div><h3>Medium Title</h3></div>
-        <div><p>paragraph</p></div>
-        <div>button 1</div>
-        <div>button 2.2</div>
+        <div class="discriptionBox">
+        <div><h4 class="smalltitle">Watch anything</h4></div>
+        <div><h1 class="largeTitle">Unlimited movies, TV shows, and more.</h1></div>
+        <div><h3 class="mediumTitle">Watch anywhere. Cancel anytime.</h3></div>
+        <div><p class="paragraph">Ready to watch? Enter your email to create or 
+            restart your membership.</p></div>
+        <form action="">
+            <input type="email">
+        </form>    
+        <div class="button1" style="height: 50px;">button 1</div>
+        <div class="button2">button 2.2</div>
+        </div>
     </div>
 </body>
 </html>
